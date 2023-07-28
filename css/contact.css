@@ -1,0 +1,45 @@
+
+
+.pb_section{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+}
+
+.pb_row{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pb_module{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    @media screen and (max-width: 960px) {
+        font-size: 17px;
+}
+    
+
+
+}
+.wp-block-quote{
+
+    margin: 0%;
+    padding-left: 4%;
+    border-left: 10px solid rgb(0, 110, 255);
+}
+
+.pb_row p a {
+    color: rgb(0, 110, 255);
+}

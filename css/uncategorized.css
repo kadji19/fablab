@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 5%;
+        width: 100%;
+        margin-top: 0%;
+}
+}
+
+.pb_section{
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 960px) {
+        height: 25vh;
+        width: 90%;
+}
+}
+
+.pb_row{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.pb_module{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15%;
+   /*  justify-content: space-around; */
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    @media screen and (max-width: 960px) {
+        font-size: 15px;
+}
+}
+
+.pb_module div P{
+    @media screen and (max-width: 960px) {
+        font-size: 15px;
+}
+}
+.pb_module div h1{
+    font-size: 25px;
+    @media screen and (max-width: 960px) {
+        font-size: 16px;
+}
+}
+
+
+.wp-block-quote{
+
+    margin: 0%;
+    padding-left: 4%;
+    border-left: 10px solid rgb(0, 110, 255);
+}
+
+#sidebar{
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    border-left: 1px solid rgb(92, 92, 92);
+    @media screen and (max-width: 960px) {
+        width: 90%;
+        height: 35vh;
+        border-left: 0px;
+        justify-content: space-around;
+}
+}
+
+.wp-block-search{
+    height: 6vh;
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    @media screen and (max-width: 960px) {
+        width: 90%;
+        height: 5vh;
+}
+}
+.wp-block-search_input{
+    height: 100%;
+    width: 30vh;
+    @media screen and (max-width: 960px) {
+        width: 50%;
+}
+}
+
+.wp-block-search_button{
+    height: 100%;
+    width: 50vh;
+    font-size: 16px;
+    @media screen and (max-width: 960px) {
+        width: 50%;
+}
+}
+
+
+.wp-block-latest{
+    width: 60%;
+    height: 15vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    color: rgb(92, 92, 92);
+    list-style: none;
+    padding: 0%;
+    @media screen and (max-width: 960px) {
+        width: 90%;
+        height: 7vh;
+        font-size: 15px;
+}
+}
+#sidebar h2{
+    font-size: 25px;
+    @media screen and (max-width: 960px) {
+        font-size: 23px;
+}
+}
+
+#sidebar a{
+    color: rgb(92, 92, 92);
+    text-decoration: none;
+}
